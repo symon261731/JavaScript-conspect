@@ -1,0 +1,153 @@
+@import "null.scss";
+
+body{
+    background-color: #333;
+    padding: 0px 10px;
+}
+h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 700; text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.some-menu {
+    margin: 0px auto;
+    max-width: 800px;
+    background-color: #7a956b;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 15px;
+    gap: 15px;
+    // .some-menu__icon
+
+    &__icon {
+        display: none;
+        flex: 0 0 30px;
+        height: 20px;
+        cursor: pointer;
+        position: relative;
+        background-color: transparent;
+        span{
+            position: absolute;
+            top: 50%;
+            left: 0;
+            height: 2px;
+            width: 100%;
+            background-color: #333;
+            margin: -1px 0px 0px 0px;
+        }
+        &::before,&::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #333;
+        }
+        &::before{
+            top: 0;
+        }
+        &::after{
+            bottom: 0;
+        }
+        .menu_active &{
+            span{
+                transform: scale(0);
+            }
+            &::before{
+                top: 50%;
+                transform: rotate(-45deg);
+                margin: -1px 0px 0px 0px;
+            }
+            &::after{
+                bottom: 50%;
+                transform: rotate(45deg);
+                margin: -1px 0px 0px 0px;
+            }
+
+        }
+        @media (max-width: 570px){
+            display: block;
+        }
+    }
+
+    // .some-menu__body
+
+    &__body {
+        flex: 1 1 auto;
+        @media (max-width: 570px){
+        position: fixed;
+        top: 0 ;
+        left: -100%;
+        transition: left 0.3s ease 0s;
+        overflow: auto;
+        width: 100%;
+        height: 100%;
+        background-color: #7a956b;
+        padding: 55px 15px;
+        &::before{
+            content: "";
+            position: fixed;
+            width: 100%;
+            height: 40px;
+            top: -40px;
+            transition: top 0.3s ease 0s;
+            left: 0;
+            background-color: #4d6440;
+        }
+        .menu_active &{
+            left: 0%;
+            &::before{
+                top: 0px;
+            }
+        }
+    }
+}
+
+    // .some-menu__list
+
+    &__list {
+        display: flex;
+        gap: 15px;
+        @media ( max-width: 570px){
+            flex-direction: column;;
+        }
+    }
+    &__item{
+
+    }
+    // .some-menu__link
+
+    &__link {
+        color: #fff;
+        text-transform: uppercase;
+        
+    }
+}
+*/
